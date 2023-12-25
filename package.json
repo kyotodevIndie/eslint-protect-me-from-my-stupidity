@@ -4,11 +4,6 @@
   "description": "Package with my Eslint | Prettier configs",
   "private": false,
   "main": "index.js",
-  "scripts": {
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "changeset publish"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/kyotodevIndie/eslint-protect-me-from-my-stupidity.git"
@@ -41,7 +36,6 @@
     "prettier-plugin-tailwindcss": "^0.5.3"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.25.2",
     "@types/eslint": "^8.4.10"
   },
   "peerDependencies": {
